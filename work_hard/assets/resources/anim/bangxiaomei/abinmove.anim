@@ -1,0 +1,33 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "abinmove",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -170.202,
+            -305.734,
+            0
+          ]
+        },
+        {
+          "frame": 1.5,
+          "value": [
+            -23.558,
+            8.503,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

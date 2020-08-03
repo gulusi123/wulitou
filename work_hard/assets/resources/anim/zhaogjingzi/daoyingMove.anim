@@ -1,0 +1,57 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "daoyingMove",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -531,
+            -90,
+            0
+          ]
+        },
+        {
+          "frame": 0.2,
+          "value": [
+            -379,
+            -110,
+            0
+          ]
+        },
+        {
+          "frame": 0.4,
+          "value": [
+            -275,
+            -130,
+            0
+          ]
+        },
+        {
+          "frame": 0.68,
+          "value": [
+            -198,
+            -165,
+            0
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            -109,
+            -225,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

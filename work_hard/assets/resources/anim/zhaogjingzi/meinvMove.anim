@@ -1,0 +1,57 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "meinvMove",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -382,
+            -809
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.2,
+          "value": [
+            -259,
+            -586
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.4,
+          "value": [
+            -197,
+            -473
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.68,
+          "value": [
+            -137,
+            -347
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 1,
+          "value": [
+            -78.1,
+            -145.9
+          ],
+          "motionPath": []
+        }
+      ]
+    }
+  },
+  "events": []
+}

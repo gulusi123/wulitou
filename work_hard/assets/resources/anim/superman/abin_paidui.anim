@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "abin_paidui",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.08,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -127,
+            -127,
+            0
+          ]
+        },
+        {
+          "frame": 0.4,
+          "value": [
+            35,
+            28
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 1.08,
+          "value": [
+            206.1,
+            284.3
+          ],
+          "motionPath": []
+        }
+      ],
+      "scale": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "frame": 0.4,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 0.95,
+            "y": 0.95
+          }
+        },
+        {
+          "frame": 1.08,
+          "value": {
+            "__type__": "cc.Vec2",
+            "x": 0.7,
+            "y": 0.7
+          }
+        }
+      ]
+    }
+  },
+  "events": []
+}

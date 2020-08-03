@@ -1,0 +1,25 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "level_result0",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "y": [
+        {
+          "frame": 0,
+          "value": 450
+        },
+        {
+          "frame": 1,
+          "value": 113.328
+        }
+      ]
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "abinbian",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.6833333333333333,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "90e9dcac-8223-48e0-aa2a-c4943439793b"
+            }
+          },
+          {
+            "frame": 0.21666666666666667,
+            "value": {
+              "__uuid__": "59eb50e6-7d28-4225-a07b-56d5bc8f1f50"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "6c9a0db1-d6b3-491e-9f28-35f42c1ce4dd"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,141 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "abindali",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 2.5166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0.35,
+            "value": {
+              "__uuid__": "6c9a0db1-d6b3-491e-9f28-35f42c1ce4dd"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "ebd1bd3f-4814-48f4-a8b9-5cd4443b50d0"
+            }
+          },
+          {
+            "frame": 0.8333333333333334,
+            "value": {
+              "__uuid__": "fb0ccfc7-93d1-4bbc-b4c1-05e163d6dab3"
+            }
+          },
+          {
+            "frame": 1.2666666666666666,
+            "value": {
+              "__uuid__": "fb0ccfc7-93d1-4bbc-b4c1-05e163d6dab3"
+            }
+          },
+          {
+            "frame": 1.5,
+            "value": {
+              "__uuid__": "ebd1bd3f-4814-48f4-a8b9-5cd4443b50d0"
+            }
+          },
+          {
+            "frame": 1.7333333333333334,
+            "value": {
+              "__uuid__": "fb0ccfc7-93d1-4bbc-b4c1-05e163d6dab3"
+            }
+          },
+          {
+            "frame": 2.0833333333333335,
+            "value": {
+              "__uuid__": "fb0ccfc7-93d1-4bbc-b4c1-05e163d6dab3"
+            }
+          },
+          {
+            "frame": 2.283333333333333,
+            "value": {
+              "__uuid__": "ebd1bd3f-4814-48f4-a8b9-5cd4443b50d0"
+            }
+          },
+          {
+            "frame": 2.5,
+            "value": {
+              "__uuid__": "fb0ccfc7-93d1-4bbc-b4c1-05e163d6dab3"
+            }
+          }
+        ]
+      }
+    },
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            0,
+            0
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.35,
+          "value": [
+            63.264,
+            319.721,
+            0
+          ]
+        },
+        {
+          "frame": 0.8333333333333334,
+          "value": [
+            63.264,
+            319.721,
+            0
+          ]
+        },
+        {
+          "frame": 1.0333333333333334,
+          "value": [
+            63.264,
+            319.722,
+            0
+          ]
+        },
+        {
+          "frame": 1.2666666666666666,
+          "value": [
+            130.25,
+            319.722,
+            0
+          ]
+        },
+        {
+          "frame": 1.7333333333333334,
+          "value": [
+            130.25,
+            319.722,
+            0
+          ]
+        },
+        {
+          "frame": 1.9166666666666667,
+          "value": [
+            130.25,
+            319.723,
+            0
+          ]
+        },
+        {
+          "frame": 2.0833333333333335,
+          "value": [
+            227.007,
+            319.723,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

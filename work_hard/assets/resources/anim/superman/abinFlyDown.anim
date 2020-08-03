@@ -1,0 +1,42 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "abinFlyDown",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.24,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": -21
+        },
+        {
+          "frame": 0.24,
+          "value": -79
+        }
+      ],
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            72,
+            411
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.24,
+          "value": [
+            147.8,
+            342.1
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

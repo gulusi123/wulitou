@@ -1,0 +1,41 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "abin_daka",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -150,
+            -230,
+            0
+          ]
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": [
+            -0.643,
+            -108.96,
+            0
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            40,
+            90,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,112 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "lajitong",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.2,
+  "sample": 50,
+  "speed": 2,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {},
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": 190
+        },
+        {
+          "frame": 0.28,
+          "value": 195
+        },
+        {
+          "frame": 0.5,
+          "value": 160
+        },
+        {
+          "frame": 0.7,
+          "value": 100
+        },
+        {
+          "frame": 0.9,
+          "value": 70
+        },
+        {
+          "frame": 1.1,
+          "value": 30
+        },
+        {
+          "frame": 1.2,
+          "value": 15
+        }
+      ],
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            0,
+            74
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.12,
+          "value": [
+            20.2,
+            99
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.28,
+          "value": [
+            52.2,
+            115.4
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.5,
+          "value": [
+            89.2,
+            113.6
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.7,
+          "value": [
+            108.3,
+            102.8
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.9,
+          "value": [
+            115.7,
+            86.6
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 1.1,
+          "value": [
+            130.8,
+            44.3
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 1.2,
+          "value": [
+            142.4,
+            -38
+          ],
+          "motionPath": []
+        }
+      ]
+    }
+  },
+  "events": []
+}

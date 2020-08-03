@@ -1,0 +1,60 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "doctorMoveIn",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.75,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -1467,
+            -220
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.4,
+          "value": [
+            -916,
+            -220
+          ]
+        },
+        {
+          "frame": 0.7,
+          "value": [
+            -456,
+            -220
+          ]
+        },
+        {
+          "frame": 1.1,
+          "value": [
+            -223.2,
+            -220
+          ]
+        },
+        {
+          "frame": 1.35,
+          "value": [
+            -107.9,
+            -220
+          ]
+        },
+        {
+          "frame": 1.75,
+          "value": [
+            -30.7,
+            25.1
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

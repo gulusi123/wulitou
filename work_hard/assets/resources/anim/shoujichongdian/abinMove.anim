@@ -1,0 +1,76 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "abinMove",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.84,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -160,
+            -327.3,
+            0
+          ]
+        },
+        {
+          "frame": 0.28,
+          "value": [
+            -47,
+            -231
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 0.8,
+          "value": [
+            105,
+            72
+          ],
+          "motionPath": []
+        }
+      ]
+    },
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "e8c6ec88-df6c-4685-a765-e26488a5b636"
+            }
+          },
+          {
+            "frame": 0.28,
+            "value": {
+              "__uuid__": "e8c6ec88-df6c-4685-a765-e26488a5b636"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "b494094f-f3b5-4cbc-9be1-cedd72d4eeef"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    },
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    }
+  ]
+}

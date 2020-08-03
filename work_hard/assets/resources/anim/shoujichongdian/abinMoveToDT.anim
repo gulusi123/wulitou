@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "abinMoveToDT",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -160,
+            -329.256,
+            0
+          ]
+        },
+        {
+          "frame": 0.8,
+          "value": [
+            -61.679,
+            161.643,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 0.6,
+      "func": "isStopMove",
+      "params": []
+    }
+  ]
+}

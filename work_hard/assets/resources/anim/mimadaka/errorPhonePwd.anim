@@ -1,0 +1,65 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "errorPhonePwd",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.25,
+  "sample": 60,
+  "speed": 1.5,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            0,
+            159.744,
+            0
+          ]
+        },
+        {
+          "frame": 0.05,
+          "value": [
+            35,
+            159.744,
+            0
+          ]
+        },
+        {
+          "frame": 0.1,
+          "value": [
+            -35,
+            159.744,
+            0
+          ]
+        },
+        {
+          "frame": 0.15,
+          "value": [
+            0,
+            159.744,
+            0
+          ]
+        },
+        {
+          "frame": 0.2,
+          "value": [
+            35,
+            159.744,
+            0
+          ]
+        },
+        {
+          "frame": 0.25,
+          "value": [
+            0,
+            159.744,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

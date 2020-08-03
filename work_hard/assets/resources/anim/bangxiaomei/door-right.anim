@@ -1,0 +1,25 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "door-right",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 69.436
+        },
+        {
+          "frame": 1,
+          "value": 218.47
+        }
+      ]
+    }
+  },
+  "events": []
+}

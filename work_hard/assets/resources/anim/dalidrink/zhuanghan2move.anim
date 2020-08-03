@@ -1,0 +1,57 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "zhuanghan2move",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.6666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -109.236,
+            -1.852,
+            0
+          ]
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": [
+            -109.236,
+            -1.852,
+            0
+          ]
+        },
+        {
+          "frame": 1.6666666666666667,
+          "value": [
+            -333.103,
+            407.964,
+            0
+          ]
+        }
+      ],
+      "angle": [
+        {
+          "frame": 0.6666666666666666,
+          "value": 0
+        },
+        {
+          "frame": 1.6666666666666667,
+          "value": 264
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 0.6666666666666666,
+      "func": "theFirstStrongMan",
+      "params": []
+    }
+  ]
+}
