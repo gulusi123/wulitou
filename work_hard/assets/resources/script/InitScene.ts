@@ -1,4 +1,4 @@
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 import AudioService from "./common/AudioService";
 @ccclass
 export default class InitScene extends cc.Component {
@@ -10,66 +10,68 @@ export default class InitScene extends cc.Component {
     @property(cc.Label)
     plabel: cc.Label = null;
     @property(cc.VideoPlayer)
-    startVideo : cc.VideoPlayer = null;
+    startVideo: cc.VideoPlayer = null;
     @property(cc.Node)
-    backGround : cc.Node = null
+    backGround: cc.Node = null
 
-    onLoad () {
+    onLoad() {
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.keyDown, this);
-	}
-    
-    start () {
+        cc.systemEvent.on("videoStop", this.completedPlay, this);
+    }
+
+    start() {
         // this.startVideo.node.width = cc.winSize.width;
         // this.startVideo.node.height = cc.winSize.height;
         // this.startVideo.node.on('ready-to-play', this.vedioPlayCallBack, this);
+        // this.startVideo.play();
         // this.startVideo.node.on('completed', this.completedPlay, this);
+        this.startVideo.node.on('completed', this.completedPlay, this);
 
+    }
+    OnClose() {
+        cc.systemEvent.off("videoStop", this.completedPlay, this);
+    }
 
+    vedioPlayCallBack() {
+        this.startVideo.play();
+    }
+
+    completedPlay() {
         this.startVideo.node.active = false;
         this.backGround.active = true;
         this.loadGameScene();
     }
 
-    vedioPlayCallBack(){
-        this.startVideo.play();
-    }
-
-    completedPlay(){
-        this.startVideo.node.active = false;
-        this.backGround.active = true;
-        this.loadGameScene();   
-    }
-    
-	onDestroy() {
+    onDestroy() {
         cc.systemEvent.off(cc.SystemEvent.EventType.KEY_DOWN, this.keyDown, this);
     }
     private keyDown(event: cc.Event.EventKeyboard) {
-        if(event.keyCode == cc.macro.KEY.back){
+        if (event.keyCode == cc.macro.KEY.back) {
             cc.game.end();
         }
     }
     /**
      * 加载菜单场景
      */
-    loadGameScene(){
+    loadGameScene() {
         cc.loader.loadRes("scene/GameScene", cc.SceneAsset, this.loadGameSceneProcess.bind(this), this.loadGameSceneCompleted.bind(this));
     }
-    loadGameSceneProcess(completedCount: number, totalCount: number, item: any){
+    loadGameSceneProcess(completedCount: number, totalCount: number, item: any) {
         //加载进度
         let process = (completedCount / totalCount * 100).toFixed(2);
         this.plabel.string = process + "%";
-        let w = (this.progressNode.parent.width - 8) * Number(process)/100;
+        let w = (this.progressNode.parent.width - 8) * Number(process) / 100;
         this.progressNode.width = w;
     }
-    loadGameSceneCompleted(error: Error, resource: cc.SceneAsset){
-        if(!error){
-            this.scheduleOnce(()=>{
+    loadGameSceneCompleted(error: Error, resource: cc.SceneAsset) {
+        if (!error) {
+            this.scheduleOnce(() => {
                 this.progressNode.parent.active = false;
                 this.playBtn.node.active = true;
             }, 0.3);
         }
     }
-    intoGameScene(){
+    intoGameScene() {
         cc.director.loadScene("GameScene");
         //AudioService.Instance.resetGameAudio();        
     }
